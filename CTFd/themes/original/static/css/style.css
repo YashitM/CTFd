@@ -294,7 +294,7 @@ table{
     width: 60%;
     border: none;
     border-radius: 0;
-    background: #f0f0f0;
+    background: #3a3a3a; /* was f0f0f0 */
     color: #aaa;
     font-weight: 400;
     font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -345,7 +345,7 @@ table{
 
 .input-field {
     width: 100%;
-    background-color: #eee;
+    background-color: #3a3a3a;
     border: 2px solid transparent;
     -webkit-transition: background-color 0.3s, border-color 0.3s;
     transition: background-color 0.3s, border-color 0.3s;
