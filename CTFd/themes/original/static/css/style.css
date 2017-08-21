@@ -38,6 +38,10 @@ img {
     color: #16e20f;
 }
 
+.table td {
+    background-color: #181818;
+}
+
 .svg-container {
     background-color: #181818;
 }
