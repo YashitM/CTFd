@@ -22,8 +22,13 @@ img {
     max-width: 100%;
 }
 
+.category-header {
+    color: #16e20f;
+}
+
 .body-container {
     min-height: 100%;
+    background-color: #000000;
     position: relative;
 }
 
@@ -40,14 +45,15 @@ img {
 }
 
 .navbar .navbar-brand {
-    font-size: 24px;
+    font-size: 29px;
     letter-spacing: -0.04rem;
     line-height: 15px;
-    color: #FFF;
+    color: #16e20f;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #FFF !important;
+    color: #16e20f !important;
+    font-weight: bold;
 }
 
 .navbar li > a {
@@ -211,13 +217,13 @@ table{
 }
 
 .navbar-inverse {
-    background: none repeat scroll 0% 0% #545454;
+    /*background: none repeat scroll 0% 0% #000000;*/
     border: medium none;
     margin-bottom: 0px;
 }
 
 .jumbotron {
-    background-color: #545454;
+    background-color: #000000;
     color: #FFF;
     padding: 0px 0px 25px;
 }
@@ -229,6 +235,7 @@ table{
 
 .home h1 {
     font-size: 48px !important;
+    color: #30c62b;
 }
 
 .navbar {
