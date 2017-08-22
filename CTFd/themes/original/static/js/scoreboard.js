@@ -63,6 +63,9 @@ function scoregraph () {
             paper_bgcolor: 'rgba(0,0,0,0)',
             plot_bgcolor: 'rgba(0,0,0,0)'
         };
+
+        $(".infolayer").attr("fill", "red");
+
         console.log(traces);
 
         Plotly.newPlot('score-graph', traces, layout);

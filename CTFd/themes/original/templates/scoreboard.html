@@ -24,8 +24,6 @@
 			</div>
 		</div>
 		{% endif %}
-
-	<div id="score-graph"></div>
 	<br>
 
 	<table id="scoreboard" class="table table-striped">
@@ -50,7 +48,5 @@
 {% endblock %}
 
 {% block scripts %}
-	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/vendor/plotly.min.js"></script>
-	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/utils.js"></script>
-	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/scoreboard.js"></script>
+
 {% endblock %}
