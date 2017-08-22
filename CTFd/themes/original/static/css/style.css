@@ -493,7 +493,6 @@ ul{
     color: #fff;
  }
 
- .g {
-    background: #fff;
-    border: 1px dashed black;
- }
+#result-notification {
+    background-color: #000;
+}
