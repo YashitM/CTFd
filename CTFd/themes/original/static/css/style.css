@@ -415,3 +415,47 @@ table{
 }
 
 /* END OF INPUT CSS */
+
+
+/*MAIN PAGE LAYOUT*/
+
+
+#d4rkc0de{
+    color: #30c62b;
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+.main-page-container {
+
+}
+
+.jumbotron{
+  text-align: center;
+  background: #282828;
+}
+
+.container-padding{
+  width: 90%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.upcoming-drop{
+  font-size: 20px;
+}
+
+ #rulelist{
+   color: #6aa84f;
+   font-size: 20px;
+   font-family: 'Orbitron', sans-serif;
+ }
+
+ .description{
+   color: #6aa84f;
+   font-family: 'Orbitron', sans-serif;
+   font-size: 20px;
+ }
