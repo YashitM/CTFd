@@ -454,6 +454,12 @@ ul{
    font-family: 'Orbitron', sans-serif;
  }
 
+ #structure {
+   color: #6aa84f;
+   font-size: 20px;
+   font-family: 'Orbitron', sans-serif;
+ }
+
  .description{
    color: #6aa84f;
    font-family: 'Orbitron', sans-serif;
